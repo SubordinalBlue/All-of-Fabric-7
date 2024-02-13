@@ -1,0 +1,38 @@
+{
+  "dependencies": [
+    "ws1"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -119,
+          51
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "computercraft:disk_drive",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "ws2"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

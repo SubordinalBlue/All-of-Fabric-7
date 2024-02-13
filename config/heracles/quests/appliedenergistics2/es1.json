@@ -1,0 +1,36 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          153,
+          51
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "megacells:bulk_item_cell",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "es1"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

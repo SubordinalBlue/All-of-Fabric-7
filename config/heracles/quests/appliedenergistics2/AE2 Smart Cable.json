@@ -1,0 +1,39 @@
+{
+  "dependencies": [
+    "AE2 Growth Accelerator"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -51,
+          -17
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:fluix_smart_cable",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "AE2 Smart Cable"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

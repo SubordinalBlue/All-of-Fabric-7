@@ -1,0 +1,38 @@
+{
+  "dependencies": [
+    "P2P Tunnel"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          17,
+          51
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:memory_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "wn11"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

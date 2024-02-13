@@ -1,0 +1,38 @@
+{
+  "dependencies": [
+    "Certus Crystal"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -153,
+          -85
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:charger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "AE2 Charger"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}

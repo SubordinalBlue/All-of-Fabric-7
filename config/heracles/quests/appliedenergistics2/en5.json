@@ -1,0 +1,38 @@
+{
+  "dependencies": [
+    "en4"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          119,
+          -17
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:1k_crafting_storage",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "en5"
+    }
+  },
+  "settings": {
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false,
+    "showDependencyArrow": true
+  }
+}
