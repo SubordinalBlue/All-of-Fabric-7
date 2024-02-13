@@ -1,0 +1,56 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<br/>",
+      "<h2 background='2 darkgoldenrod' border='0 darkgoldenrod' color='linen' italic='true'>&#32;Yul's&#32;</h2>",
+      "<h2 align='center' background='2 linen' border='1 darkgoldenrod' color='goldenrod' italic='false'>Merchants and Craftsmen, an Almanac</h2>",
+      "<br/>",
+      "<hr/>",
+      "<br/>",
+      "<hr/>",
+      "<br/>",
+      "<columns>",
+      "<column>",
+      "<p align='center' background='3 dodgerblue' color='linen' italic='true'>Where They Live</p>",
+      "<h1 align='center' color='goldenrod'>👈</h1>",
+      "</column>",
+      "<column>",
+      "<p align='center' background='3 tomato' color='linen' italic='true'>What They Trade</p>",
+      "<h1 align='center' color='goldenrod'>👉</h1>",
+      "</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "The Village People": {
+        "position": [
+          -160,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:check",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/heptagons.png",
+    "title": {
+      "translate": "Y.M.C.A."
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

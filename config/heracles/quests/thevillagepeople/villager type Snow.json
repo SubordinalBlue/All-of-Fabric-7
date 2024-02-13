@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "villagerBiomeTypes"
+  ],
+  "tasks": {
+    "sayHelloSnow": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "entity": "minecraft:villager",
+      "nbt": {
+        "VillagerData": {
+          "type": "minecraft:snow"
+        }
+      },
+      "title": "Interact with a Snow Villager",
+      "type": "heracles:entity_interaction"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "fun stuff goes here"
+    ],
+    "groups": {
+      "The Village People": {
+        "position": [
+          -190,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:snowball",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Snow"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

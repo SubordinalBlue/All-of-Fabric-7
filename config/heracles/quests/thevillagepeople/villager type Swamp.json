@@ -1,0 +1,59 @@
+{
+  "dependencies": [
+    "villagerBiomeTypes"
+  ],
+  "tasks": {
+    "sayHelloSwamp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "entity": "minecraft:villager",
+      "nbt": {
+        "VillagerData": {
+          "type": "minecraft:swamp"
+        }
+      },
+      "title": "Interact with a Swamp Villager",
+      "type": "heracles:entity_interaction"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "fun stuff goes here"
+    ],
+    "groups": {
+      "The Village People": {
+        "position": [
+          -242,
+          -30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:blue_orchid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Swamp"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
