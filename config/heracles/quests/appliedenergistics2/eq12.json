@@ -1,7 +1,5 @@
 {
-  "dependencies": [
-    "nw5"
-  ],
+  "dependencies": [],
   "tasks": {},
   "rewards": {},
   "display": {
@@ -12,21 +10,21 @@
     "groups": {
       "Applied Energistics 2": {
         "position": [
-          -85,
-          -119
+          -119,
+          -221
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "ae2:quantum_ring",
+        "id": "minecraft:map",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "nw6"
+      "translate": "eq12"
     }
   },
   "settings": {

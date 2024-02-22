@@ -11,7 +11,7 @@
       "Applied Energistics 2": {
         "position": [
           -17,
-          153
+          152
         ]
       }
     },
@@ -28,9 +28,10 @@
     }
   },
   "settings": {
-    "individual_progress": false,
-    "hidden": "LOCKED",
     "unlockNotification": false,
-    "showDependencyArrow": true
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
   }
 }
