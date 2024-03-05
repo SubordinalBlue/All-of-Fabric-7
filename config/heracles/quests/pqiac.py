@@ -10,10 +10,12 @@ Options:
 
 """
 
+from itertools import cycle
 from docopt import docopt
 from pprint import pprint
-import re
 import math
+import re
+
 pi = math.pi
 
 def pointsInCircle(x=0, y=0, r=100, n=10):
@@ -29,24 +31,22 @@ def setPosInQuest(questFile, pos):
 		file.truncate()
 	
 if __name__ == "__main__":
-	args = docopt(__doc__, options_first=True)
-
-	quest_count = len(args['<quest>'])
+	args = docopt(__doc__)
 
 	if args['slice']:
 		n = int(args['<count>'])
+		offset = int(args['<offset>'])
 	else:
-		n = quest_count
+		n = len(args['<quest>'])
+		offset = 0
 
-	points = pointsInCircle(int(args['<x>']), int(args['<y>']), int(args['<radius>']), n)
-	
-	if args['slice']:
-		quest_points = points[n:n+quest_count]
-	else:
-		quest_points = points
+	points = cycle(pointsInCircle(int(args['<x>']), int(args['<y>']), int(args['<radius>']), n))
 
-#	if args["-n"]:
-#		pprint
+	for _ in range(offset):
+		next(points) 
 
-	for quest, pos in zip(args['<quest>'], quest_points):
-		setPosInQuest(quest, pos)
+	for quest in args['<quest>']:
+		if args['-n']:
+			pprint(quest, next(points))
+		else:
+			setPosInQuest(quest, next(points))
