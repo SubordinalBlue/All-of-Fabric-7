@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "Mushroom Aromatics",
+    "Pain Flavored",
+    "Songbird",
+    "Death Candle",
+    "The Dragon Lies Bleeding",
+    "Massive Mechanisms",
+    "50 Shades of Everything"
+  ],
+  "tasks": {
+    "316909DDD20437A4": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "advancements": [
+        "spectrum:lategame/collect_dd_resources"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/spectrum/legendary",
+          "Name": "Spectrum Legendary Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "§eCollect all the resources in the Deeper Down"
+    },
+    "description": [
+      "<h2>&&eCollect all the resources in the Deeper Down</h2>",
+      "<hr/>",
+      "<task task=\"316909DDD20437A4\" quest=\"Hoarder\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"52AFAAA2781D4147\" quest=\"Hoarder\"/>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          672,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spectrum:ivory_noxcap_stem",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hoarder"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "IN_PROGRESS"
+  }
+}

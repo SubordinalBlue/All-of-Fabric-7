@@ -1,0 +1,136 @@
+{
+  "dependencies": [
+    "Budding Friendship",
+    "Stargazing",
+    "Painter's Distillery",
+    "Sweet Rewards",
+    "Damage Insurance",
+    "Combination Animal",
+    "Hoarder",
+    "Strength of Will",
+    "Protective Hues",
+    "Biomes Below Bedrock",
+    "Same, but Different",
+    "I Dream of Flying",
+    "More than a Building Tool",
+    "The Evil Within",
+    "Massive Mechanisms",
+    "Renewable Onyx",
+    "Ink-powered Trinkets",
+    "Ruin #1",
+    "Ruin #2",
+    "Ruin #3",
+    "Better Vibrations",
+    "Gemstone Stockpiling",
+    "Fully Upgraded",
+    "Ink Powered",
+    "Off With Their Heads",
+    "Potioneering",
+    "State-of-your-art Blasting",
+    "A Solid Improvement II"
+  ],
+  "tasks": {
+    "3D2AD6934C3585CF": {
+      "title": "§bSpe§dctr§eum §b1§d0§e0§r%",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "6F52B0A6DC1A772C": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:spectrum"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
+    "description": [
+      "<br/>",
+      "<columns template='0 100'>",
+      "<column>",
+      "<columns>",
+      "<column valign='top'>",
+      "<h2 background='8 #aaff00ff' border='0 #01ff00ff' color='#44ff00ff' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<h2 background='8 #aa00ffff' border='2 #0100ffff' color='#4400ffff' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column>",
+      "<h2 background='8 #aaffd700' border='5 #01ffd700' color='#44ffd700' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns template='20 82'>",
+      "<column>",
+      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag='{BlockEntityTag:{Trophy:&#39;trofers:spectrum&#39;}}'>&#32;</item>",
+      "</column>",
+      "<column valign='middle'>",
+      "<columns template='80 20'>",
+      "<column>",
+      "<h1 align='right' background='3 #444444' border='1 #888888' color='#cccccc' shadowed='true'>&&o Spectrum&#160;</h1>",
+      "</column>",
+      "<column>",
+      "<img align='left' height='8' src='textures/trims/color_palettes/diamond.png' textureHeight='8' textureWidth='32' width='32'>&#32;</img>",
+      "<img align='left' height='8' src='textures/trims/color_palettes/amethyst.png' textureHeight='8' textureWidth='32' width='32'>&#32;</img>",
+      "<img align='left' height='8' src='textures/trims/color_palettes/gold.png' textureHeight='8' textureWidth='32' width='32'>&#32;</img>",
+      "<img align='left' height='8' src='textures/trims/color_palettes/trim_palette.png' textureHeight='8' textureWidth='32' width='32'>&#32;</img>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "<hr/>",
+      "<br/>",
+      "<br/>",
+      "<p>&#32;    Cherish how Much,</p>",
+      "<br/>",
+      "<p>&#32;      You now Know.</p>",
+      "<br/>",
+      "<br/>",
+      "<hr/>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Spectrum": {
+        "position": [
+          321,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:spectrum"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Spectrum 100"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
