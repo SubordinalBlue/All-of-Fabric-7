@@ -1,0 +1,37 @@
+{
+  "dependencies": [
+    "Travelers Backpack Netherite"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Storage": {
+        "position": [
+          -130,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": "#travelersbackpack:custom_travelers_backpack",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Travelers Backpacks - Custom"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

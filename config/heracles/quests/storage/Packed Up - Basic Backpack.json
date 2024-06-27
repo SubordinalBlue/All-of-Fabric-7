@@ -1,33 +1,17 @@
 {
   "dependencies": [
-    "basic_storage"
+    "backpacks"
   ],
   "tasks": {
     "pu_basic": {
       "type": "heracles:item",
       "item": "packedup:basicbackpack",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "pu_basic_reward": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:leather",
         "count": 5
@@ -65,7 +49,7 @@
     "groups": {
       "Storage": {
         "position": [
-          -80,
+          -90,
           -220
         ]
       }
@@ -79,14 +63,15 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Basic Backpacks"
+      "translate": "Packed Up - Basic Backpack"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

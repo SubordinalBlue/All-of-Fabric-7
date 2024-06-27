@@ -1,33 +1,17 @@
 {
   "dependencies": [
-    "Silver Backpack"
+    "Packed Up - Ag and Au Backpacks"
   ],
   "tasks": {
     "pu_diamond": {
       "type": "heracles:item",
       "item": "packedup:diamondbackpack",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "pu_diamond_reward": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:diamond",
         "count": 4
@@ -69,8 +53,8 @@
     "groups": {
       "Storage": {
         "position": [
-          -80,
-          -20
+          -90,
+          -100
         ]
       }
     },
@@ -84,14 +68,15 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Diamond Backpack"
+      "translate": "Packed Up - Diamond Backpack"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

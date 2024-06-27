@@ -1,0 +1,40 @@
+{
+  "dependencies": [
+    "Travelers Backpack Standard"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [],
+    "groups": {
+      "Storage": {
+        "position": [
+          -130,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:iron_tier_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Travelers Backpack Iron Tier"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

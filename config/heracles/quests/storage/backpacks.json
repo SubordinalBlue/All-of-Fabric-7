@@ -1,0 +1,44 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "BackpacksCheckTask": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -130,
+          -260
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "travelersbackpack:standard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Backpacks"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

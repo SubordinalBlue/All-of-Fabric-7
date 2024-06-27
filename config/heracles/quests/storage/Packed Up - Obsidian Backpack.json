@@ -1,33 +1,17 @@
 {
   "dependencies": [
-    "Diamond Backpack"
+    "Packed Up - Diamond Backpack"
   ],
   "tasks": {
     "pu_obsidian": {
       "type": "heracles:item",
       "item": "packedup:obsidianbackpack",
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      }
+      "collection": "AUTOMATIC"
     }
   },
   "rewards": {
     "pu_obsidian_reward": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:obsidian",
         "count": 7
@@ -35,14 +19,6 @@
       "type": "heracles:item"
     },
     "pu_diamond_reward2": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "modern_industrialization:silver_ingot",
         "count": 1
@@ -86,8 +62,8 @@
     "groups": {
       "Storage": {
         "position": [
-          -80,
-          20
+          -90,
+          -60
         ]
       }
     },
@@ -101,14 +77,15 @@
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Obsidian Backpack"
+      "translate": "Packed Up - Obsidian Backpack"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }

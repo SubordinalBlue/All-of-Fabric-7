@@ -1,33 +1,29 @@
 {
   "dependencies": [
-    "Backpack"
+    "Packed Up - Basic Backpack"
   ],
   "tasks": {
-    "getCuPack": {
-      "type": "heracles:item",
-      "item": "packedup:copperbackpack",
+    "getCuOrFePack": {
       "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
+      "tasks": {
+        "PuCuPack": {
+          "type": "heracles:item",
+          "item": "packedup:copperbackpack",
+          "amount": 1,
+          "collection": "AUTOMATIC"
         },
-        "type": "heracles:item"
-      }
+        "PuFePack": {
+          "type": "heracles:item",
+          "item": "packedup:ironbackpack",
+          "amount": 1,
+          "collection": "AUTOMATIC"
+        }
+      },
+      "type": "heracles:composite"
     }
   },
   "rewards": {
     "Reward4CuPack": {
-      "title": "",
-      "icon": {
-        "item": {
-          "id": "minecraft:air",
-          "count": 0
-        },
-        "type": "heracles:item"
-      },
       "item": {
         "id": "minecraft:copper_ingot",
         "count": 7
@@ -90,28 +86,29 @@
     "groups": {
       "Storage": {
         "position": [
-          -80,
+          -90,
           -180
         ]
       }
     },
     "icon": {
       "item": {
-        "id": "packedup:copperbackpack",
+        "id": "packedup:ironbackpack",
         "count": 1
       },
       "type": "heracles:item"
     },
     "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
     "title": {
-      "translate": "Copper Backpack"
+      "translate": "Packed Up - Cu and Fe Backpacks"
     }
   },
   "settings": {
-    "unlockNotification": false,
     "showDependencyArrow": true,
     "repeatable": false,
+    "autoClaimRewards": false,
     "individual_progress": false,
-    "hidden": "LOCKED"
+    "hidden": "LOCKED",
+    "unlockNotification": false
   }
 }
