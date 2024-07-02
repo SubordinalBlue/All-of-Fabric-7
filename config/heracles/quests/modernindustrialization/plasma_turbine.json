@@ -32,7 +32,7 @@
     },
     "mi_legendary_lootbag": {
       "item": {
-        "id": "lootbags:loot_bag",
+        "id": "minecraft:stone",
         "count": 1,
         "nbt": {
           "Type": "LEGENDARY",
