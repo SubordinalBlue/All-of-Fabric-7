@@ -1,11 +1,6 @@
 {
   "dependencies": [],
-  "tasks": {
-    "1349A47C54D391CA": {
-      "title": "Security and Wireless",
-      "type": "heracles:check"
-    }
-  },
+  "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
@@ -15,10 +10,7 @@
       "<hr/>",
       "## &&eNeed a hookup?",
       "<br/>",
-      "Finaly no more running back and forth to your ME Network!",
-      "",
-      "<task task=\"1349A47C54D391CA\" quest=\"Security and Wireless\"/>",
-      "<hr/>"
+      "Finaly no more running back and forth to your ME Network!"
     ],
     "groups": {
       "Applied Energistics 2": {

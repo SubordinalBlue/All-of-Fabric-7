@@ -12,10 +12,7 @@
       "<br/>",
       "Use various interfaces and automate your network.",
       "",
-      "The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components.",
-      "<hr/>",
-      "<task task=\"2E567019AD31DD51\" quest=\"Automation is Key\"/>",
-      "<hr/>"
+      "The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."
     ],
     "groups": {
       "Applied Energistics 2": {

@@ -1,10 +1,6 @@
 {
   "dependencies": [],
-  "tasks": {
-    "057AFA385B6AD0B6": {
-      "type": "heracles:check"
-    }
-  },
+  "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
@@ -14,9 +10,7 @@
       "<hr/>",
       "# &&eCrystals!",
       "<br/>",
-      "  You will need a lot of crystals of 3 types /b/Certus Quartz/b/, /b/Charged Certus Quartz/b/, and /b/Fluix Crystals/b/.",
-      "<task task=\"057AFA385B6AD0B6\" quest=\"Crystals are the way\"/>",
-      "<hr/>"
+      "  You will need a lot of crystals of 3 types /b/Certus Quartz/b/, /b/Charged Certus Quartz/b/, and /b/Fluix Crystals/b/."
     ],
     "groups": {
       "Applied Energistics 2": {
