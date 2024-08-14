@@ -1,6 +1,10 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "ltjb_check": {
+      "type": "heracles:check"
+    }
+  },
   "rewards": {
     "welcome_reward": {
       "item": {

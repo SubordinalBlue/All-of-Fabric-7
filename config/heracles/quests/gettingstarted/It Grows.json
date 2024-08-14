@@ -1,6 +1,10 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "itgrows_check": {
+      "type": "heracles:check"
+    }
+  },
   "rewards": {
     "cherry sapling reward": {
       "item": {
