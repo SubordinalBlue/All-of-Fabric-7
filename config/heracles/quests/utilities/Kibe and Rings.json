@@ -1,6 +1,10 @@
 {
   "dependencies": [],
-  "tasks": {},
+  "tasks": {
+    "kibe_rings_check": {
+      "type": "heracles:check"
+    }
+  },
   "rewards": {
     "5FEA7261502B2EA7": {
       "xptype": "POINTS",

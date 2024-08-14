@@ -1,11 +1,6 @@
 {
   "dependencies": [],
-  "tasks": {
-    "093B8ECB1B60CFD3": {
-      "title": "Machines to automate",
-      "type": "heracles:check"
-    }
-  },
+  "tasks": {},
   "rewards": {},
   "display": {
     "subtitle": {
