@@ -1,4 +1,12 @@
-## All of Fabric 7 | v2.5.1
+## All of Fabric 7 | v2.5.3
+
+### Bug Fixes 🪲
+
+* Updated URL in `server-setup-config.yaml`
+
+_Fabric Loader 0.16.0_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.5.3.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.5.3.md)_
+
+## All of Fabric 7 | v2.5.2
 
 _Fabric Loader 0.16.0_ | _[Mod Updates](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/changelog_mods_2.5.2.md)_ | _[Modlist](https://github.com/TeamAOF/All-of-Fabric-7/blob/main/changelogs/modlist_2.5.2.md)_
 
